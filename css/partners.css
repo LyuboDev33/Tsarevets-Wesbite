@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+.square-holder {
+  width: 90%;
+  padding: 30px;
+  border: 1px solid #cecece;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: #f1f1f1;
+  height: 200px;
+  margin: 20px auto;
+  font-family: 'Sofia Sans Condensed', sans-serif;
+
+}
+
+.square-holder:hover {
+  cursor: pointer;
+}
+
+.records-text {
+  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.fa-solid.fa-trophy {
+  color: #fcc900;
+  font-size: 20px;
+  margin-right: 6px;
+  
+}
+
+.square-holder img {
+  max-width:100%;
+  transition: all 0.3s;
+}
+
+.square-holder:hover img{
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.square-holder:not(:hover) img {
+  transition: 0.5s;
+}
+
+.mb-sm {
+  text-align: center;
+    box-shadow: 0 1px 12px #00000038;
+    padding: 16px;
+    max-width: 270px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    border-radius: 36px;
+}
+
+.info-partners-text {
+  padding-left: 37px;
+  padding-top: 21px;
+  padding-right: 26px;
+  text-align: justify;
+  line-height: 1.5;
+  font-weight: 100;
+  
+ 
+}
+
+.beginning-text {
+ font-size: 23px;
+ line-height: 1.8;
+ font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+#partRow {
+  justify-content: center;
+  --bs-gutter-x: 0;
+}
+
+.donation-text {
+  font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 24px;
+}
+
+.list-phones li {
+  margin-top: 25px;
+    list-style: none;
+    font-size: 21px;
+}
+
+.list-phones {
+  padding-left: 0;
+}
+
+.fas.fa-mobile-alt {
+  font-size: 25px;
+}
+
+
+@media (max-width: 500px) {
+  .square-holder img {
+    filter: none;
+  }
+
+  #universe, #alpen-pharma, #HJT, #ideal-standart{ 
+    height: 160px;
+  }
+}
+
+@media (min-width: 500px) {
+
+  #universe,#alpen-pharma, #HJT, #ideal-standart {
+    height: 180px;
+  }
+  
+  .strong-flex {
+    display: flex;
+  }
+
+  .beginning-text {
+    width: 277px;
+  }
+
+  .records-text {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    width: 277px;
+  }
+
+  .mb-sm {
+    max-width: 330px;
+  }
+}
+
+@media (min-width: 900px) {
+  .beginning-text {
+    width: 400px;
+    font-size: 25px;
+  }
+
+  .records-text {
+  
+    width: 400px;
+  }
+  .donation-text {
+      font-size: 29px;
+    margin-top: 58px;
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .beginning-text {
+    width: 500px;
+  }
+
+  .records-text {
+    width: 500px;
+  }
+}
+
+
+@media (min-width: 1600px){ 
+  #rainbow {
+    height: 180px;
+  }
+
+  #ideal-standart {
+    height: 160px;
+  }
+
+  .beginning-text {
+    width: 630px;
+  }
+
+  .records-text {
+    width: 630px;
+  }
+}

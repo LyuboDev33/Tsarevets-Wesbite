@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.periods-flex-images {
+     padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    justify-items: center;
+    box-shadow: 0 1px 15px #00000024;
+    margin: 5px;
+    margin-bottom: 40px;
+
+}
+
+.periods-images {
+  width: 90%;
+    height: auto;
+  object-fit: cover;
+  margin-top: 15px;
+}
+
+.period-header {
+ text-align: center;
+    margin-top: 30px;
+    max-width: 350px;
+    box-shadow: 0 1px 5px;
+    width: auto;
+    padding: 12px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    border-radius: 50px;
+    font-family: 'Lobster', sans-serif;
+}
+
+@media screen and (min-width: 451px) and (max-width: 840px) {
+  .periods-flex-images {
+    margin: 20px;
+  }
+}
+
+@media (min-width: 450px){ 
+  .periods-images {
+   
+    height: auto;
+    width: 390px;
+    object-fit: cover;
+    margin-top: 15px;
+  } 
+
+  .periods-flex-images {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-items: center;
+    margin-bottom: 30px;
+  
+  }
+  
+}
+
+@media (min-width: 1000px){ 
+
+  .periods-images {
+    width: 475px;
+    height: auto;
+    object-fit: cover;
+    margin-top: 15px;
+  } 
+
+}
+
+
+@media (min-width: 1130px){ 
+
+  .periods-images {
+    width: 520px;
+    height: auto;
+    object-fit: cover;
+    margin-top: 30px;
+  } 
+
+}
+
+@media (min-width: 1230px){ 
+
+  .periods-images {
+    width: 560px;
+    height: auto;
+    object-fit: cover;
+    margin-top: 15px;
+  } 
+
+  .periods-flex-images {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    justify-items: center;
+        margin-bottom: 40px;
+  
+  }
+
+}
+
+@media (min-width: 1392px){ 
+
+  .periods-images {
+    width: 430px;
+    height: auto;
+    object-fit: cover;
+    margin-top: 15px;
+  } 
+
+}
+
+@media (min-width: 1500px){ 
+
+  .periods-images {
+    width: 450px;
+    height: auto;
+    object-fit: cover;
+    margin-top: 15px;
+  } 
+
+}
+
+
+
+
+

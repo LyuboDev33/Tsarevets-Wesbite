@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+
+.imgSchedule {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.scheduleText { 
+  margin-top: -40px;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.headersScheduleMain {
+  text-align: center;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 40px;
+  text-decoration: solid;
+
+}
+
+.pools {
+  border-radius: 60px;
+  box-shadow: 3px 0 4px black;
+  padding: 15px;
+  font-size: 13pt;
+}
+
+@media screen and (min-width: 300px) and (max-width: 360px) {
+  .pools {
+    font-size: 13pt;
+
+  }
+}
+
+
+.p-for-pools {
+  padding: 15px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: -10px;
+  margin-bottom: 49px;
+  line-height: 1.9;
+  font-size: 19px;
+}
+
+
+@media (min-width: 600px) {
+  .twoDivs {
+    display: flex;
+    justify-content: center;
+  }
+
+  .imgSchedule{
+    width: 500px;
+  }
+
+}
+
+@media (min-width: 800px) {
+
+  .headersScheduleMain { 
+    margin-top: 150px;
+  }
+
+  .twoDivs {
+    display: flex;
+    justify-content: space-around; 
+  }
+
+  .imgSchedule{
+    width: 650px;
+    margin: 25px;
+  }
+
+  .scheduleText { 
+    font-size: 15px;
+    padding: 20px;
+  }
+ 
+  
+
+}

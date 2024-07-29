@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400&display=swap');
+
+.container-swimm {
+  margin: 0 auto;
+  padding: 4rem;
+  width: 48rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container-text{
+  width: 45%;
+  min-width: 90%;
+  margin: 0 auto;
+}
+
+
+.wrapper-whySwimm{
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  padding: 15px 15px;
+  border-radius: 5px;
+  box-shadow: 0 15px 25px rgba(0,0,50,0.2);
+}
+.toggle,
+.content{
+  font-family: "Poppins",sans-serif;
+}
+.toggle{
+  text-align: left;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #111130;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px 5px;
+}
+.content{
+  position: relative;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 30px;
+  height: 0;
+  overflow: hidden;
+  transition: all 1s;
+}
+
+.header-comment-two, .header-comment-one {
+     text-align: center;
+    font-weight: 700;
+    margin-top: 47px;
+}
+
+
+
+.comment-two {
+  text-align: justify;
+}
+
+@media (max-width: 850px) {
+
+  .hr-for-largeScreenP {
+    display: none;
+  }
+
+.headerWhy {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 3px black;
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
+
+.introduction, .after-introduction {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.after-introduction {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.two-comments-swimming {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.images-whySmimm { 
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.biliana-phone-picture {
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.jump-image-telephone {
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.gabby-top-phone{
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.gabby-top-screen {
+  display: none;
+}
+
+.images-whySmimm-gabby {
+  width: 90%;
+}
+
+.intro-p { 
+  width: 90%;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.comment-one, .comment-two {
+  padding: 20px;
+  text-align: justify;
+}
+
+.header-comment-one {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: -20px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-comment-two {
+  text-align: center;
+     margin-top: 10px;
+     margin-bottom: 20px;
+     font-size: 25px;
+ }
+
+ .faq { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .images-whySmimm-Biliana{ 
+  display: none;
+ }
+
+ .p-for-phones {
+  text-align: center; 
+  margin-top: 10px;
+ }
+
+ .p-for-screens {
+  display: none;
+ }
+
+ .jump-image-screen {
+  display: none;
+ }
+
+ .images-whySmimm-gabby-screen {
+  display: none;
+ }
+
+ .vertical-line {
+  display: none;
+ }
+
+ 
+}
+
+@media (min-width: 850px)  {
+
+  .images-whySmimm-gabby {
+    display: none;
+  }
+
+  .images-whySmimm-gabby-screen {
+    width: 100%;
+    height: 410px;
+    margin-top: 90px;
+    object-fit: cover;
+  }
+
+  .flex-btns {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .jump-image-screen {
+    width: 100%;
+    height: 410px;
+    margin-top: 43px;
+    flex: 2;
+    object-fit: cover;
+  }
+
+  .jump-image-telephone {
+    display: none;
+  }
+  
+  .gabby-top-phone { 
+    display: none;
+  }
+
+  .gabby-top-screen{ 
+    width: auto;
+    height: 375px;
+  }
+
+  .intro-p {
+    display: flex;
+
+  }
+
+  .p-for-phones {
+    display: none;
+   }
+  
+   .p-for-screens {
+    text-align: center; 
+    margin-top: 10px;
+   }
+
+  .biliana-phone-picture {
+    display: none;
+  }
+
+  .images-whySmimm-Biliana {
+   width: 77%;
+    height: 450px;
+    margin-top: 15px;
+ margin-left: 22px;
+ object-fit: cover;
+   
+  }
+
+  .introduction {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .headerWhy {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 3px black;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .images-whySmimm { 
+    width: auto;
+    height: 375px;
+  }
+  
+  .jump-image-telephone {
+    width: 25%;
+    margin-bottom: 30px;
+  }
+  
+  .images-whySmimm-gabby {
+    width: 25%;
+    margin-bottom: 30px;
+  }
+
+  .intro-p {
+    font-size: 14px;
+    margin-right: 32px;
+    font-size: 0.85em;
+    text-align: justify;
+  }
+
+  .image-with-buttons { 
+    display: flex;
+    margin-top: 25px;
+
+  }
+  
+  .both-moments {
+    display: flex;
+  }
+
+  .hr-screen {
+    display: none;
+  }
+
+  .faq{ 
+    display: flex;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    /* align-items: flex-end; */
+  }
+
+  .container-text{
+    width: 45%;
+    min-width: 55%;
+    margin: 0 auto;
+    
+  }
+
+  .container-text{
+   width: 50%;
+    min-width: 40%;
+    margin-left: 20px;
+
+  }
+
+  .full-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .text-with-gabby {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+
+  .vertical-line {
+    border-left: 2px solid black;
+    margin-left: 25px;
+    margin-right: 25px;
+  
+  }
+
+  .flex-for-bothComments{ 
+    display: flex;
+  }
+
+  .comment-one {
+    margin-top: -47px;
+    text-align: justify;
+  }
+
+  .animate__animated.animate__fadeInUp, .animate__animated.animate__fadeInRight{
+    animation-duration: 1s;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .intro-p {
+    font-size: 1.0em;
+  }
+
+  .images-whySmimm {
+    width: 100%;
+    height: 385px;
+    margin-left: 22px;
+  }
+
+  .gabby-top-screen {
+    width: 100%;
+    height: 385px;
+    object-fit: cover;
+}
+
+
+
+.container-text {
+  width: 65%;
+  min-width: 40%;
+  margin-left: 20px;
+}
+  
+}
+
+@media (min-width: 1100px) {
+  .intro-p {
+    font-size: 1.2em;
+    width: 100%;
+  }
+
+}
+
+
+@media (min-width: 1330px) {
+
+  .image-with-buttons {
+    display: flex;
+    
+}
+
+  /* .intro-p {
+    font-size: 1.4em;
+    width: 100%;
+  } */
+
+ 
+.container-text {
+  width: 65%;
+    min-width: 40%;
+    margin-left: 50px;
+}
+  
+
+.full-container {
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+}
+
+
+@media (min-width: 1480px) {
+
+  .full-container {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+}
+
+
+@media (min-width: 1530px){ 
+  .intro-p {
+    font-size: 1.4em;
+    width: 100%;
+  }
+
+
+  
+
+  .images-whySmimm {
+    width: 45%;
+    height: 430px;
+}
+
+.container-text {
+  width: 71%;
+  min-width: 40%;
+
+}
+
+
+}
+
+
+@media (min-width: 1650px) {
+  .intro-p {
+    width: 60%;
+  }
+
+  .full-container {
+    padding-left: 240px;
+    padding-right: 240px;
+  }
+
+}
+
+
+
+
+.intro-p {
+  flex: 2;
+}
+
+.images-whySmimm {
+  flex: 2;
+}
+
+.images-whySmimm-Biliana {
+  flex: 2;
+}
+
+.container-text {
+  flex: 2;
+}
+
+.gabby-top-screen {
+  flex: 2;
+}
+
+.gabby-top-screen {
+  flex: 2;
+}
+
+.the-gabby-screenDiv{ 
+  flex: 2;
+}
+
+/* #firstTextContainer .wrapper-whySwimm {
+  opacity: 0;
+} */                       

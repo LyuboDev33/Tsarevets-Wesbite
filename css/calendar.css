@@ -1,0 +1,25 @@
+.calID {
+
+  margin-bottom: 20px;
+
+}
+
+.schedule {
+  text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+
+}
+
+tbody tr td {
+  padding: 15px;
+
+}
+
+table {
+  box-shadow: 0 0 8px black;
+
+
+}
